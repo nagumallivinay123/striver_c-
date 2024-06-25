@@ -1,0 +1,1 @@
+{"name":"Local: bubblesort","url":"/Users/nagumalllivinay/Desktop/cc classes/hashing/bubblesort.cpp","tests":[{"id":1645807948341,"input":"5\n3 4 5 2 1\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/nagumalllivinay/Desktop/cc classes/hashing/bubblesort.cpp","group":"local","local":true}

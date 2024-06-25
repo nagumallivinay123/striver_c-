@@ -1,0 +1,40 @@
+1 2 3 4 5 6 7 8 9 10
+subarray ayite 1 2 3 4 -contagious set of element ina a arrays
+subsequence enti ante order lo undali elante 1 5 6 ,2 4 6  
+for(array(a,b,c))
+subset generation
+    (a,b,c) zero unna chota aa number elemetnt akkkada unnadau
+0 = (000)2 = {}
+1 = (001)2 = {c}//ekkada c pick chesamu a,b pick cheyaledhu endhuku ante aa place lo 0 0 undi kabatti 
+2 = (010)2 = {b}
+3 = (011)2 = {b, c}
+4 = (100)2 = {a}
+5 = (101)2 = {a, c}
+6 = (110)2 = {a, b}
+7 = (111)2 = {a, b, c}
+/*int n = 3, k;
+	int arr[3] = {1, 2, 3};
+	k = pow(2, 3);
+	for (int i = 0; i < k; i++) {
+		int x = i;
+		for (int j = 0; j < n; j++) {
+			int y = x / (pow(2, j));
+			if (y % 2) {
+				cout << arr[j] << " ";
+			}
+		}
+		cout << endl;//edanta seniors code assala follow avaddu
+	}
+   //this is main code to subsets
+	int n = 3
+	int arr[3] = {1, 2, 3};
+	for (int i = 0; i < pow(2,n); i++) {
+		for (int j = 0; j < n; j++) {
+			int x=(1<<j);//ith bit 1 na kada ani chesukovali 1 ayithe aa bit pettali
+			if(i&(x)!=0){
+				cout<<arr[j]<<" ";
+			}
+			
+		}
+		cout << endl;
+	}
