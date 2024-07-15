@@ -3,6 +3,7 @@
 using namespace std;
 const int inf = 1e9 + 2;
 const int n = 1e3;
+//dijikshtra negative edges ki work avvadu 
 // 1st-Approach
 // edhi priority_queue vadi chesinadi
 //time complexity for dijikshtra algorithm is ElogV E->edges V->vertices ]

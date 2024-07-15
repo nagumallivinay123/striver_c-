@@ -15,7 +15,17 @@ long long binary_exponential(long long a,long long b,long long  mod)
     }
     return ans;
 }
-
+int ncr(int n,int r){
+   long long factorial[n+1];
+    factorial[0]=1;
+    factorial[1]=1;
+    for(int i=2;i<=n;i++){
+      factorial[i]=(i*factorial[i-1])%MOD;
+    }
+    long long some=(factorial[n-r]*1LL*(factorial[r]))%MOD;
+    long long ans=(factorial[n]*binary_exponential(some,MOD-2,MOD)*1LL)%MOD;
+    cout<<ans<<"\n"; 
+}
 int main(){
     //giving n and r to find ncr calculation 
     //n!/(n-r)!r!

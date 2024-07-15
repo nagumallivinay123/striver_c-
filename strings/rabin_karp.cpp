@@ -14,7 +14,7 @@ long long power(int primes, int n)
             ans = (ans * prime) % mod;
         }
         prime = (prime * prime) % mod;
-        n = n / 2;
+        n = n>>1;
     }
     return ans;
 }

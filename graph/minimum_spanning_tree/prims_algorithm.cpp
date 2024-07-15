@@ -59,4 +59,5 @@ int main()
     }
 return spanningTree(vertices,adj);
     return 0;
+    //time complexity is ELogE  
 }

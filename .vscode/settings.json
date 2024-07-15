@@ -150,10 +150,7 @@
   "C_Cpp_Runner.compilerArgs": [],
   "C_Cpp_Runner.linkerArgs": [],
   "C_Cpp_Runner.includePaths": [],
-  "C_Cpp_Runner.includeSearch": [
-    "*",
-    "**/*"
-  ],
+  "C_Cpp_Runner.includeSearch": ["*", "**/*"],
   "C_Cpp_Runner.excludeSearch": [
     "**/build",
     "**/build/**",
@@ -170,10 +167,5 @@
   "C_Cpp_Runner.msvcSecureNoWarnings": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnPaste": true,
-  "editor.formatOnSave": true,
-  "workbench.colorCustomizations": {
-    "activityBar.background": "#302F12",
-    "titleBar.activeBackground": "#434119",
-    "titleBar.activeForeground": "#FAFAF2"
-  }
+  "editor.formatOnSave": true
 }

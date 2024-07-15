@@ -1,6 +1,4 @@
-#include<iostream>
 #include<bits/stdc++.h>
-using namespace std;
 //pattern matching -> pattern dhe 
 //okasari abdul bari example chudu intuition baaga vastundi -> https://www.youtube.com/watch?v=V5-7GzOfADQ
 //o(m*n) time complexity dhi o(m+n) kinda marustundi 
@@ -59,7 +57,7 @@ while(right<m){
         if(j==m)
         {
             ans=i-m+1;
-            return ans;
+            cout<< ans<<" ";
             j=lps[j-1];
         }
          
