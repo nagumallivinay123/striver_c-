@@ -139,7 +139,7 @@ public:
         if (lazy[index] != 0)
         {
             // you should update segment value
-            seg[index] += lazy[index];
+            seg[index] += lazy[index]*(high-low+1);
             lazy[2 * index + 1] += lazy[index];
             lazy[2 * index + 2] += lazy[index];
             lazy[index] = 0;
@@ -156,7 +156,7 @@ public:
         //  [ given_l low high given_r]
         if (given_l <= low && high <= given_r)
         {
-            seg[index] += val;
+            seg[index] += val*(high-low+1);
             // children ki manam pass chestunam aa value ni (endhukanteh further ki use avathadi )
             // downward propagation
             if (low != high)

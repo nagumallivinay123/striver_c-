@@ -37,9 +37,10 @@ int main(){
     int n=10;
     vector<int>arr(10,0);
     for(int i=0;i<10;i++){
-        arr[i]=i;
+        arr[i]=i+1;
     }
     sqrt_decomposition(n,arr);
+    //o based indexing 
     cout<<query(2,9,arr);
 
     

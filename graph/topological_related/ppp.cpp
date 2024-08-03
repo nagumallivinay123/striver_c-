@@ -1,3 +1,5 @@
+#include<bits/stdc++.h>
+using namespace std;
 class Solution
 {
 public:
@@ -25,9 +27,9 @@ public:
                 if (keep != original)
                 {
                     parent[i] = keep;
-                    if (mpp.find(parent) != mpp.end() && mpp[parent] + 1 = mpp[word])
+                    if (mpp.find(parent) != mpp.end() && (mpp[parent] + 1 == mpp[word]))
                     {
-                        seq.push_back(parent);
+                        seq.push_back(parent[i]+"");
                         dfs(parent, seq);
                         seq.pop_back();
                     }
@@ -44,7 +46,7 @@ public:
         store.push(beginWord);
         b = beginWord;
         compare.erase(beginWord);
-        mpp[beginword] = 1;
+        mpp[beginWord] = 1;
         while (!store.empty())
         {
             string parent = store.front();
@@ -74,7 +76,7 @@ public:
                 parent[i] = original;
             }
         }
-        if (mpp.find(endWord) != mp.end())
+        if (mpp.find(endWord) != mpp.end())
         {
             vector<string> seq;
             seq.push_back(endWord);
@@ -84,3 +86,6 @@ public:
         return ans;
     }
 };
+int main(){
+    return 0;
+}

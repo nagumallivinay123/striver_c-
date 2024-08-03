@@ -1,0 +1,1 @@
+{"name":"Local: postfix_to_infix","url":"/Users/nagumalli_vinay/Desktop/striver_c-/stacks/conversions/postfix_to_infix.cpp","tests":[{"id":1722641346170,"input":"ab*c+","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/nagumalli_vinay/Desktop/striver_c-/stacks/conversions/postfix_to_infix.cpp","group":"local","local":true}

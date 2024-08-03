@@ -54,10 +54,9 @@ Tree *lca(Tree *node, int p, int q)
         return lt;
     }
     //left vachcesi right 
-    else
-    {
+    
         return node;
-    }
+    
 }
 
 int main()

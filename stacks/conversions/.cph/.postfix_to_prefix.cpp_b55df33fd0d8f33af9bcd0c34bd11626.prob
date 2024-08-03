@@ -1,0 +1,1 @@
+{"name":"Local: postfix_to_prefix","url":"/Users/nagumalli_vinay/Desktop/striver_c-/stacks/conversions/postfix_to_prefix.cpp","tests":[{"id":1722643890012,"input":"ABC/-AK/L-*","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/nagumalli_vinay/Desktop/striver_c-/stacks/conversions/postfix_to_prefix.cpp","group":"local","local":true}

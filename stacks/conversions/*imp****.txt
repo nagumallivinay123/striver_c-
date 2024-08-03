@@ -1,0 +1,43 @@
+//infix conversions   ->kastam  
+infinix to postfix  -> order matters 
+
+enka operators order map lo store cheyali
+stack of top kanna high order operator vaste push cheyi
+stack of top kanna low order operator vaste pop cheyi 
+1.first operands vaste answer string lo add cheyi 
+2.operator vaste push/pop cheyali 
+
+
+
+infinix to prefix ki -> order matters 
+string ni 
+1.reverse string 
+2."(" evi unna chota ")" evi pettu 
+3.")" evi unna chota "(" evi pettu 
+same as infinix to postfix aa string ni cheyi 
+vachchina answer malli reverse cheyi 
+
+
+
+
+
+
+map avasaram pakka 
+stack vadali
+kastamainavi edhe 
+
+
+//prefix conversions ->easy 
+prefix to postfix ->
+prefix to infix ki -> 
+reverse cheyali 
+stack vadali 
+
+//postfix conversions ->easy 
+postfix to postfix 
+postfix to infix ki 
+stack vadali 
+
+
+
+ 

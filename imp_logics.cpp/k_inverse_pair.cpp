@@ -26,8 +26,7 @@ int func2(int n,int k){
         ans+=func2(n-1,k-i);
     }
     return ans;
-}
-
+} 
 
 
 int main(){
