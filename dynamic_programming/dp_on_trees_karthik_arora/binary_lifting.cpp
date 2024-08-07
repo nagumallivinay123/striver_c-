@@ -32,12 +32,12 @@ void binary_lifting_form(int n, vector<int> &boss)
             if (parent[node][i - 1] != -1)
             {
 
-                parent[node][i] = parent[parent[node][i - 1]][i - 1];
+               parent[node][i] = parent[parent[node][i - 1]][i - 1];
             }
             // enka paika vellipodam anteh akkadem undhavu
             else
             {
-                parent[node][i] = -1;
+               parent[node][i] = -1;
             }
         }
     }
@@ -55,7 +55,7 @@ int query(int node,int index)
             
             return query(parent[node][count],index-(1<<count));
           
-          break;
+          
         }
         some=some>>1;
         

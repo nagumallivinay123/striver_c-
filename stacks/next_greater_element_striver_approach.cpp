@@ -13,22 +13,25 @@ int main()
         cin >> arr[i];
         // cout << arr[i];
     }
+    //edhi striver approach  veedu back nunchi vastadu 
+    
     for (int i = n - 1; i >= 0; i--)
     {
-        while (!s.empty() && arr[i] >= s.top())
+        while (!s.empty() && s.top()<=arr[i])
         {
             s.pop();
         }
         if (s.empty()==true)
         {
-            s.push(arr[i]);
+            
             nge[i] = -1;
         }
         else
         {
             nge[i] = s.top();
-            s.push(arr[i]);
+            
         }
+         s.push(arr[i]);
     }
     for(int i=0; i<nge.size();i++){
         cout<<nge[i]<<" "<<endl;

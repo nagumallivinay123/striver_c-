@@ -89,7 +89,7 @@ public:
         // three cases
         // 1->no overlap
         //[low high][given_l given_r] or [given_l given_r][low high]
-        if (high < given_l || given_r < low)
+        if (high < given_l || given_r < low )
         {
             return 0;
         }
