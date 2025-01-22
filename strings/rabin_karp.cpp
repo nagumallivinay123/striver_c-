@@ -74,6 +74,9 @@ bool rabin_karp(string a, string b)
                 return true;
             }
         }
+        
+
+
     }
     return false;
 }

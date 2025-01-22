@@ -65,6 +65,9 @@ int lca(int u,int v,vector<vector<int>>&binary_lifted_parents,vector<int>&level)
         }
     }
     //edhi m
+    if(u==v){
+        return u;
+    }
    for(int i=19;i>=0;i--){
     if(binary_lifted_parents[u][i]!=binary_lifted_parents[v][i]){
         //uppudu u and v ni marcheyali 

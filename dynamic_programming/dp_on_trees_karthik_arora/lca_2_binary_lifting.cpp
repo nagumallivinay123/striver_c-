@@ -94,9 +94,11 @@ int lca2(int node1,int node2){
         swap(node1,node2);
     }
     node2=query(node2,abs(a-b));
-    if(node1==node2){
+    if(node1==node2)
+    {
         return node1;
     }
+    
     for(int i=19;i>=0;i--){
         if(parent[node1][i]!=parent[node2][i]){
             node1=parent[node1][i];

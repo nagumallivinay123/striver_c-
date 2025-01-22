@@ -1,0 +1,1 @@
+{"name":"Local: t","url":"/Users/nagumalli_vinay/Desktop/striver_c-/t.cpp","tests":[{"id":1725515223159,"input":"5\n2\n100\n200\n100\n100\n300","output":""},{"id":1731334808959,"input":"5\n5\n1\n200\n30\n40\n20","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/nagumalli_vinay/Desktop/striver_c-/t.cpp","group":"local","local":true}

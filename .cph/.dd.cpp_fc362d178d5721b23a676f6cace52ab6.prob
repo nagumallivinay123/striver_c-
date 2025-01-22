@@ -1,0 +1,1 @@
+{"name":"Local: dd","url":"/Users/nagumalli_vinay/Desktop/striver_c-/dd.cpp","tests":[{"id":1728717964030,"input":"5\n1 5 10 14 17\n3\n4 11 15","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/nagumalli_vinay/Desktop/striver_c-/dd.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: pract","url":"/Users/nagumalli_vinay/Desktop/striver_c-/pract.cpp","tests":[{"id":1724938881242,"input":"AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGTGGATTAAAAAAAGAGTGTCTGATAGCAGC","output":"asecretmessage"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/nagumalli_vinay/Desktop/striver_c-/pract.cpp","group":"local","local":true}

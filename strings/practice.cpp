@@ -1,53 +1,60 @@
 #include<bits/stdc++.h>
 using namespace std;
-void find_lps(string pattern,vector<int>&lps){
+void find_lps(string pattern,vector<int>&lps)
+{
     int len=0;
     int r=1;
-    lps[0]=0;
-    int n=pattern.length();
-    while(r<n){
-        if(pattern[r]==pattern[len]){
-            len++;
+    lps[len]=0;
+int n=pattern.length();
+while(r<n){
+    if(pattern[r]==pattern[len]){
+        len++;
+        lps[r]=len;
+        r++;
+    }
+    else{
+        if(len>0)
+        {
+            len=lps[len-1];
+        }
+        else{
             lps[r]=len;
             r++;
         }
-        else{
-            if(len>0){
-                len=lps[len-1]; 
-            }
-            else{
-                lps[r]=len;
-                r++;
-            }
-        }
     }
+
+}
+    
 
 }
 void kmp(string text,string pattern){
     int n=text.length();
     int m=pattern.length();
-    vector<int>lps(n,0);
+    vector<int>lps(m,0);
     find_lps(pattern,lps);
     int i=0;
     int j=0;
-    while(i<n){
-        if(text[i]==pattern[j]){
+    cout<<"positions"<<"\n";
+    while(i<n && j>=0){
+        if(text[i]==pattern[j])
+        {
             i++;
             j++;
         }
-        else{
+        else {
             if(j>0){
-                j=lps[j-1];
+                lps[j]=lps[j-1];
             }
             else{
-                i++;
+                i++;  
             }
         }
-        if(j>=m){
-            cout<<i-m<<" ";
+        if(j==m){
+            cout<<i-m+1<<" ";
             j=lps[j-1];
         }
     }
+
 }
 
 int main(){
